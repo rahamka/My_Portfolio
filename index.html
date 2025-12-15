@@ -4,22 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/portfolio_favicon.png"
+      type="image/png" />
     <script src="script.js" defer></script>
   </head>
   <body>
     <header>
+      <!-- Website Header Container -->
       <div id="header_container">
-        <div id="links_div" class="links_div1">
+        <!-- Header Links Div -->
+        <div id="links_div1" class="links_div">
           <p class="myName">Raham Kalhoro</p>
           <div id="links">
-            <p>LinkedIn_Image</p>
+            <a
+              href="https://www.linkedin.com/in/raham-kalhoro?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank"
+              class="accountLink">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
           </div>
           <div id="links">
-            <p>GitHub_Image</p>
+            <a
+              href="https://github.com/rahamka"
+              target="_blank"
+              class="accountLink">
+              <i class="fa-brands fa-github"></i>
+            </a>
           </div>
         </div>
-        <div id="links_div" class="links_div">
+        <div id="links_div2" class="links_div displayLinks">
           <div><a href="#" class="header_links">My Work</a></div>
           <div><a href="#" class="header_links">Experience</a></div>
           <div><a href="#" class="header_links">Reviews</a></div>
@@ -27,8 +49,132 @@
           <div><a href="#" class="header_links">Contact Me</a></div>
         </div>
       </div>
+      <div id="introPara">
+        <h1>Hi 👋, I'm Raham Kalhoro</h1>
+      </div>
     </header>
-    <main></main>
+    <main>
+      <!-- Hero Section -->
+      <div id="heroSection">
+        <div id="imageDiv">
+          <img src="images/MyImage.jpeg" alt="Profile Picture" id="imgDiv" />
+        </div>
+        <div id="aboutDiv">
+          <h1>FRONTEND DEVELOPER</h1>
+        </div>
+        <div id="discriptionDiv">
+          <p>
+            I create simple and user-friendly websites using HTML, CSS, and
+            JavaScript.
+          </p>
+        </div>
+        <div id="projectsDiv">
+          <h1 id="projectsHeader">PROJECTS</h1>
+        </div>
+        <div id="recentWorkDiv">
+          <h2 id="recentWordPara">My Recent Work</h2>
+        </div>
+      </div>
+
+      <!-- Project Cards -->
+      <div id="project_cards_div">
+        <!-- Project Card - 1 -->
+        <div id="projectCard" class="projectCard-1">
+          <div id="cardImgDiv">
+            <img
+              src="projectsImage/Extension_project.png"
+              alt="Extension Project" />
+            <div id="cardInfoContainer">
+              <div id="cardViewLink">
+                <p>Extension Project</p>
+                <a
+                  href="https://rahamka.github.io/Extensions-Project/"
+                  id="projectLink"
+                  target="_blank"
+                  >🌐</a
+                >
+              </div>
+              <div id="skillContainer">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+              </div>
+              <div id="discriptionDiv">
+                <p>
+                  I built this Project using HTML, CSS, and JavaScript, creating
+                  a dynamic, responsive web application that demonstrates
+                  interactive features and my frontend development skills.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card - 2 -->
+        <div id="projectCard" class="projectCard-1">
+          <div id="cardImgDiv">
+            <img
+              src="projectsImage/rock_paper_scissor.png"
+              alt="Rock Paper & Scissor Game Image" />
+            <div id="cardInfoContainer">
+              <div id="cardViewLink">
+                <p>Rock Paper & Scissor Game</p>
+                <a
+                  href="https://rahamka.github.io/Rock_Paper_Scissors/"
+                  id="projectLink"
+                  target="_blank"
+                  >🌐</a
+                >
+              </div>
+              <div id="skillContainer">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+              </div>
+              <div id="discriptionDiv">
+                <p>
+                  A simple and interactive Rock–Paper–Scissors game built with
+                  HTML, CSS, and JavaScript. Play against the computer, track
+                  the results, and enjoy a clean, responsive UI.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card - 3 -->
+        <div id="projectCard" class="projectCard-1">
+          <div id="cardImgDiv">
+            <img
+              src="projectsImage/tic-tac-toe.png"
+              alt="Tic Tac Toe Game Image" />
+            <div id="cardInfoContainer">
+              <div id="cardViewLink">
+                <p>Tic Tac Toe Game</p>
+                <a
+                  href="https://rahamka.github.io/Tic-Tac-Toe/"
+                  id="projectLink"
+                  target="_blank"
+                  >🌐</a
+                >
+              </div>
+              <div id="skillContainer">
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+              </div>
+              <div id="discriptionDiv">
+                <p>
+                  This is a Tic Tac Toe game Project built with HTML, CSS, and
+                  JavaScript, using arrays and DOM manipulation to handle game
+                  logic and dynamic UI updates.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>
