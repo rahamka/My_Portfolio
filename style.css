@@ -388,6 +388,36 @@ a {
   border-bottom: 1px solid white;
 }
 
+#contactPara h1 {
+  font-size: 35px;
+  text-align: center;
+  color: #0067f6;
+}
+
+#contactPara {
+  padding-top: 25px;
+}
+
+#messageContainer {
+  background-color: #14213d;
+  padding-top: 2rem;
+  /* total width */
+  width: 100%;
+  max-width: 800px;
+  display: grid;
+  margin: 0 auto; /* centers the container horizontally */
+  gap: 20px; /* optional: spacing between grid items */
+}
+
+/* Start from here. */
+.profileImg {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @media (max-width: 840px) {
   #links_div2 {
     display: none;
