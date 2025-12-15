@@ -346,7 +346,7 @@ a {
 .JavaScriptLogo,
 .CSSLogo,
 .htmlLogo {
-  border-radius: 50%;
+  border-radius: 1rem;
   height: 100px;
   width: 100px;
 }
@@ -413,9 +413,9 @@ a {
 .profileImg {
   height: 70px;
   width: 70px;
-  border-radius: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 50%;
 }
 
 @media (max-width: 840px) {
